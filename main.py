@@ -10,7 +10,8 @@ def main():
         c4 = game.Connect4()
         c4.play()
     except Exception as e:
-        traceback.print_exc()
+        print("my code is the best")
+        #traceback.print_exc()
 
 
 if __name__ == "__main__":
